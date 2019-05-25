@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/autosize.js/4.0.2/autosize.min.js"></script>
+
+        <script src="script.js"></script>
+
+        <title>
+            Sawyer Precious - Portfolio
+        </title>
+
+
+
+
+    </head>
+
+
+
+    <!-- Loader -->
+
+
+    <body>
+
+        <style>
+            img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+                display: none!important;
+            }
+        </style>
+
+        <div id="loader-wrapper">
+                <img src="images/logo-white.png">
+            <div id="loader1" class="loader"></div>
+            <div id="loader2" class="loader"></div>
+            <div id="loader3" class="loader"></div>
+            <div id="loader4" class="loader"></div>
+            <div id="loader5" class="loader"></div>
+            <div id="loader6" class="loader"></div>
+ 
+        </div>
+
+
+
+        <!-- Mobile -->
+
+        <div id="mobile-warning">
+            For a better experience, view this page on a larger screen (larger than 750x500).
+        </div>
+
+
+
+        <!-- Navigation -->
+
+
+        <div id="nav-container">
+
+            <ul id="nav">
+                <li id="about-tab" onclick="onAboutClick()">About Me</li>
+                <li id="experience-tab" onclick="onExperienceClick()">Work Experience</li>
+                <li id="projects-tab" onclick="onProjectsClick()">Projects</li>
+                <li id="interests-tab" onclick="onInterestsClick()">Interests</li>
+                <li id="contact-tab" onclick="onContactClick()">Contact</li>
+            </ul>
+
+            <div id="nav-links">
+                <a href="https://github.com/sawyerprecious" target="_blank"><img src="images/github-link.png"></a>
+                <a href="https://www.linkedin.com/in/sawyerprecious/" target="_blank">
+                    <img src="images/linkedin-link.png"></a>
+                <img src="images/email-link.png" onclick="onContactClick()" class="ptr">
+            </div>
+
+        </div>
+
+
+
+        <!-- Main content -->
+
+            <div id="background-img">
+                <img src="images/logo.png">
+            </div>
+
+            <div id="overlay" onclick="closeProjDetail()"></div>
+
+        <div id="main-content">
+
+
+
+
+
+            <!-- ABOUT -->
+
+                <div id="about-container" class="section">
+                    <div id="about">
+                        <div id="profile-pic-container">
+                        </div>
+                        <div id="profile">
+                            <h1>
+                                Sawyer Precious
+                            </h1>
+                            <p>
+                                Hi, I'm Sawyer.  I'm a student at the University of British Columbia majoring in
+                                both business and computer science.  Pursuing the BUCS program has allowed me to
+                                expand my knowledge in two areas that I'm passionate about.  I've had the
+                                opportunity to improve my coding skills as well as gain an understanding of how
+                                successful organizations operate.  Going to UBC has also allowed me to continue
+                                my rowing career.
+                                <br/><br/>
+                                For the past 10 years, I have been defined by the sport of rowing.  My story as a
+                                high-performance athlete began as an eighth grader.  It came to an end when I
+                                crossed the finish line in my last race at the end of March.  In between, I fell in
+                                love with the sport, made friends for life, and won multiple national championships.
+                                More importantly, I learned how to push myself to my breaking point, and then push 
+                                just a little bit further.  I learned to be the kid who needed to prove that he 
+                                belonged.  I learned how to be the leader who gave his teammates a pat on the back 
+                                or a kick in the butt when they needed it.  I learned the glory of victory and the 
+                                pain of defeat.  Rowing taught me how to succeed both on and off the water.
+                                <br/><br/>
+                                These lessons colour how I approach my academic and professional life.  I believe in 
+                                making ideas a reality, working to achieve goals, and using every possible 
+                                opportunity to improve.  My attitude has allowed me to build leadership, 
+                                communication, and problem-solving skills in projects that I have been involved in 
+                                both in and outside of school.  My main goal in life is to find the areas that I am 
+                                the most skilled in and leverage my knowledge to make an impact.  Currently, my main
+                                focus is bridging the gap between business and technology.  Like I did in my rowing 
+                                career, I want to work hard every single day, build relationships, and win.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+            <!-- EXPERIENCE -->
+
+                <div id="exp-container" class="section">
+                    <div id="exp">
+                        <div>
+
+                            <h1>Technical Work Experience</h1>
+
+                        </div>
+
+
+
+                        <div class="experience-instance">
+
+                            <div class="experience-pic-container">
+                                <img id="zenxmed" src="images/openxmedLogo.png">
+                            </div>
+
+                            <div class="experience-text-container">
+                                <h2>Junior Software Developer</h2>
+                                <a class="experience-company-name">Zenxmed Innovations Inc.</a>
+                                <br/>
+                                May 2018 - August 2018 | Vancouver, BC
+                                <br/>
+                                <ul>
+                                    <li>Worked with full-stack team to extend the functionality of the OpenXmed 
+                                        iPhone app, a Wikipedia-like tool used by physicians to improve client care 
+                                        and reduce misdiagnoses</li>
+                                    <li>Built using Swift for the iPhone app and TypeScript for the backend</li>
+                                    <li>Updated app to use collection views, allowing users to quickly navigate 
+                                        steps of medical algorithms</li>
+                                    <li>Implemented searching functionality to allow physicians to quickly find 
+                                        information</li>
+                                    <li>Created a commenting feature, enabling users to interact in real time</li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+
+                         <div class="experience-instance">
+
+                            <div class="experience-pic-container">
+                                <img id="preciousguise" src="images/preciousGuiseLogo.png">
+                            </div>
+
+                            <div class="experience-text-container">
+                                <h2>Junior Web Developer</h2>
+                                <a class="experience-company-name">Precious Guise Agencies Inc.</a>
+                                <br/>
+                                December 2017 - March 2018 | Vancouver, BC
+                                <br/>
+                                <ul>
+                                    <li>Built a manufacturer’s agent’s website using HTML, CSS, and JavaScript</li>
+                                    <li>Allowed large areas of the site to be used as links using the span tag</li>
+                                    <li>Changed images depending on mouse position using the general sibling 
+                                        selector in CSS</li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+                        <h1>Other Work Experience</h1>
+
+
+
+                      
+
+
+
+                        <div class="experience-instance">
+
+                            <div class="experience-pic-container">
+                                <img id="bsp" src="images/bsp-logo.png">
+                            </div>
+
+                            <div class="experience-text-container">
+                                <h2>Rental Department Manager</h2>
+                                <a class="experience-company-name">Bicycle Sports Pacific</a>
+                                <br/>
+                                May 2016 – August 2017 | Vancouver, BC
+                                <br/>
+                                <ul>
+                                    <li>Reduced maintenance costs by analyzing and streamlining the reporting and 
+                                        ordering processes</li>
+                                    <li>Managed inventory and reconciled cash and credit card payments at the end of 
+                                        each day</li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="experience-instance">
+
+                            <div class="experience-pic-container">
+                                <img id="vc" src="images/vc-crest.png">
+                            </div>
+
+                            <div class="experience-text-container">
+                                <h2>Head Learn To Row Coach</h2>
+                                <a class="experience-company-name">Vancouver College</a>
+                                <br/>
+                                May 2015 – July 2015 | Vancouver, BC
+                                <br/>
+                                <ul>
+                                    <li>Improved athlete two-kilometer test times by over 10 seconds on average by 
+                                        using personalized plans</li>
+                                    <li>Focused on teamwork, positive feedback, and mutual respect, leading to 
+                                        increased team morale and over 80% of rowers returning the following year, 
+                                        compared to a historical average of 65%</li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="experience-instance">
+
+                            <div class="experience-pic-container">
+                                <img id="valhalla" src="images/valhalla-logo.png">
+                            </div>
+
+                            <div class="experience-text-container">
+                                <h2>Wildfire Fighter</h2>
+                                <a class="experience-company-name">Valhalla Environmental Consulting</a>
+                                <br/>
+                                June 2014 – August 2014 | Coldstream, BC
+                                <br/>
+                                <ul>
+                                    <li>Thrived in a high-stress environment unlike other previous experiences by 
+                                        learning new terminology and safety procedures quickly and thoroughly</li>
+                                    <li>Instrumental in saving over 1000 houses at the Smith Creek Fire by 
+                                        communicating fire behaviour and containment strategy to coworkers and 
+                                        supervisors effectively</li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+
+
+                    <!-- PROJECTS -->
+
+
+                    <div id="proj-container" class="section">
+
+                        <div id="proj-details">
+
+                            <div id="close-button" onclick="closeProjDetail()"> </div>
+
+                            <div id="proj1" class="project-text-container">
+
+                                <a href="https://github.com/sawyerprecious/personalApp" target="_blank" 
+                                class="project-github"><img src="images/github-link.png"></a>
+
+                                <h3> Personal App </h3>
+                                <h6> May 2018 </h6>
+                                <p class="proj-details-small">
+                                   Originally, I used the app to keep reminders, notes, and recipes.  I have 
+                                   continued to iterate on the its design and functionality as my needs change.  One 
+                                   addition was building local notifications in to improve my experience with the 
+                                   reminder feature, as well as adding functionality to create recurring reminders.  
+                                   As I thought about investing more money into the stock market, I decided to 
+                                   implement an overview of my financial portfolio.  I was able to get real-time 
+                                   summaries of my investments by using the Alpha Vantage API to track stock 
+                                   information and the Bank of Canada's Valet API to convert foreign currencies to 
+                                   Canadian Dollars.
+                                </p>
+
+
+                                <img class="project-gif" src="images/personal-app.gif">
+                                
+
+                                <p class="proj-details-small">
+                                    <a>Languages</a>: Swift <br> 
+                                    <a>APIs</a>: Alpha Vantage, Valet <br>
+                                    <a>Database</a>: SQLite
+                                </p>
+
+                                
+
+
+                            </div>
+
+                            <div id="proj2" class="project-text-container">
+
+                                <a href="https://github.com/sawyerprecious/queryEngine" target="_blank" 
+                                class="project-github"><img src="images/github-link.png"></a>
+
+                                <h3> Query Engine </h3>
+                                <h6> September 2017 - December 2017 </h6>
+                                <p class="proj-details-large">
+                                    This was a project for my Intro to Software Engineering (CPSC 310) class.  I 
+                                    worked with a partner to create a middle layer of a database - inputs were 
+                                    users' queries, and outputs were tuples, stats, or other information that had 
+                                    been requested.  To process information concurrently, we used promises.  We also 
+                                    used REST endpoints to separate client and server.  In order to efficiently 
+                                    transform, locate, and retrieve data, we used hash functions.  Testing was done 
+                                    with Mocha and Chai.  Collaboration was done using GitHub.  My partner and I 
+                                    received a perfect grade on the final phase of the project.
+                                </p>
+
+                                <p class="proj-details-large">
+                                    <a>Languages</a>: TypeScript <br>
+                                    <a>Testing</a>: Mocha, Chai
+                                </p>
+
+                                
+
+                            </div>
+
+                            <div id="proj3" class="project-text-container">
+
+                                <a href="https://github.com/sawyerprecious/BusesAreUs" target="_blank" 
+                                class="project-github"><img src="images/github-link.png"></a>
+
+                                <h3> Buses Are Us </h3>
+                                <h6> January 2017 - April 2017 </h6>
+                                <p class="proj-details-small">
+                                    Completed as the final project for my Software Construction (CPSC 210) class.  
+                                    The project was to create an Android app in Java that provided bus route 
+                                    information around Vancouver.  I used TransLink's Open API to retrieve bus 
+                                    route, stop, and schedule information, and built JSON parsers to interpret that 
+                                    data.  By using the singleton design pattern, I was able to ensure that bus 
+                                    stops and routes were accessible throughout the entire application.  When 
+                                    clicking on a bus stop, users were shown bus routes overlaid on the map.  If 
+                                    they wanted more information, they could click a button to get real-time 
+                                    information on arrival times and delays.  Testing was done with JUnit and I 
+                                    simulated the app's display using Genymotion.  I received a grade of 100% on the 
+                                    project.
+                                </p>
+
+                                <img class="project-gif" src="images/buses-are-us.gif">
+
+                                <p class="proj-details-small">
+                                    <a>Languages</a>: Java <br> 
+                                    <a>APIs</a>: Translink Open API <br>
+                                    <a>Testing</a>: JUnit <br>
+                                    <a>Other tools</a>: Genymotion
+                                </p>
+
+                                
+
+                            </div>
+
+                            <div id="proj4" class="project-text-container">
+
+                                <h3> Mind Palace </h3>
+                                <h6> January 2019 - April 2019 </h6>
+                                <p class="proj-details-small">
+
+                                    I was inspired to create this project after learning about the method of loci, 
+                                    which is a memory technique that uses visualization as a memory aid.  The method 
+                                    of loci involves a user creating a "mind palace" - a route of a real-world 
+                                    location that they are familiar with.  The idea behind the project was to 
+                                    simplify the process of committing a mind palace to memory.  Users take pictures 
+                                    that serve as the points on the route.  Along that route, users can insert 
+                                    visual cues to help them remember something, from grocery lists to key points in 
+                                    a presentation.  I decided to try to create a sense of augmented reality through 
+                                    the use of emojis and functionality heavily inspired by Snapchat's stickers.
+                                      <br><br>
+
+                                    Awarded "Most Innovative Project" by panel of industry judges.
+
+                                </p>
+
+                                <img class="project-gif" src="images/mind-palace.gif">
+
+                                <p class="proj-details-small">
+                                    <a>Database</a>: Firebase <br> 
+                                    <a>Front End</a>: Origami
+                                </p>
+
+                            </div>
+
+                            <div id="proj5" class="project-text-container">
+
+                                <h3> AR App </h3>
+                                <h6> July 2016 - August 2016 </h6>
+                                <p class="proj-details-small">
+
+                                    Inspired by Pokemon Go, I wanted to understand more about how AR worked.  I
+                                     created a simple app to teach myself about augmented reality.  The app allowed 
+                                    the user to create a single character who could complete simple tasks.
+
+                                </p>
+
+                                <img class="project-gif" src="images/ar.gif">
+
+                                <p class="proj-details-small">
+                                    <a>Languages</a>: Swift <br> 
+                                    <a>Other tools</a>: ARKit, SceneKit
+                                </p>
+
+                            </div>
+
+                            <div id="proj6" class="project-text-container">
+
+                                <a href="https://github.com/sawyerprecious/pngManipulation" target="_blank" 
+                                class="project-github"><img src="images/github-link.png"></a>
+
+                                <h3> Image Manipulator </h3>
+                                <h6> December 2017 </h6>
+                                <p class="proj-details-large">
+
+                                    The final assignment for my Algorithms and Data Structures class (CPSC 221) was 
+                                    to create a C++ program that could perform basic changes to images.  It used 
+                                    quad trees to allow for easy location of pixels in relation to their parents.  
+                                    The finished program allowed a user to specify a change to make (for example, 
+                                    rotate, prune, mirror, etc.).
+
+                                </p>
+
+                                <p class="proj-details-large">
+                                    <a>Languages</a>: C++
+                                </p>
+
+                                
+
+                            </div>
+
+                            <div id="proj7" class="project-text-container">
+
+                                <h3> Munch Madness </h3>
+                                <h6> November 2018 - December 2018 </h6>
+                                <p class="proj-details-small">
+
+                                    Built as the final project for my Human Computer Interactions (CPSC 344) class.  
+                                    The idea was to gamify the process of choosing a restaurant.  March Madness was 
+                                    a good metaphor for eliminating possible options one at a time by comparing two 
+                                    restaurants directly.  User studies, interviews, and cognitive walkthroughs fed 
+                                    into the final design.  It would be used as an addition to Yelp.
+
+                                </p>
+
+                                <img class="project-gif" src="images/munch-madness.gif">
+
+                                <p class="proj-details-small">
+                                    <a>Front End</a>: Figma
+                                </p>
+
+                            </div>
+
+                            <div id="proj8" class="project-text-container">
+
+                                <h3> NBA Database </h3>
+                                <h6> March 2018 - April 2018 </h6>
+                                <p class="proj-details-large">
+
+                                    This was a group project for a Databases class (CPSC 304).  Users would select 
+                                    what information they wanted, which was then turned into a SQL query internally, 
+                                    and then the information was retrieved from the database.  Swift was used for 
+                                    the front end for simplicity's sake.  SQLite was an easy, built-in solution for 
+                                    database management and retrieval on the back end.
+
+                                </p>
+
+                                <p class="proj-details-large">
+                                    <a>Languages</a>: Swift <br> 
+                                    <a>Database</a>: SQLite
+                                </p>
+
+                            </div>
+
+                            <div id="proj9" class="project-text-container">
+
+                                <a href="https://github.com/sawyerprecious/Frogger-AI" target="_blank" 
+                                class="project-github"><img src="images/github-link.png"></a>
+
+                                <h3> Frogger AI </h3>
+                                <h6> April 2019 </h6>
+                                <p class="proj-details-large">
+
+                                    While I was studying for my Artificial Intelligence (CPSC 322) final exam, I 
+                                    decided to get some more hands-on experience with AI.  I created an AI to play 
+                                    Frogger.  I originally used a simple neural network, a basic genetic algorithm, 
+                                    and a fitness function based solely on distance travelled.  After many 
+                                    iterations, I came up with a better fitness function and integrated the NEAT 
+                                    algorithm into the selection and reproduction process.  
+
+                                </p>
+
+                                <p class="proj-details-large">
+                                    <a>Languages</a>: Java <br> 
+                                    <a>Front End</a>: JPanels <br>
+                                    <a>Algorithm</a>: Neuroevolution of augmenting topologies (NEAT) <br>
+                                </p>
+
+                            </div>
+
+
+
+
+                        </div>
+
+                        <div id="proj">
+
+                            <div class="row">
+
+                                <div class="column">
+
+                                    <div class="project-instance" onclick="onProjInstanceClick(9)">
+
+                                    <div class="project-image-container">
+                                        <img id="frogger-proj-pic" src="images/frogger.jpg" style="width:100%">
+                                    </div>
+
+                                    Frogger AI
+
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="column">
+
+                                    <div class="project-instance" onclick="onProjInstanceClick(1)">
+
+                                        <div class="project-image-container">
+                                            <img id="personal-proj-pic" src="images/personalapp.png" 
+                                            style="width:100%">
+                                        </div>
+
+                                        Personal App
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="column">
+
+                                    <div class="project-instance" onclick="onProjInstanceClick(2)">
+
+                                    <div class="project-image-container">
+                                        <img id="query-engine-proj-pic" src="images/queryengine.png" 
+                                        style="width:100%">
+                                    </div>
+
+                                    Query Engine
+
+                                    </div>
+
+                                </div>
+
+
+                                
+
+                            </div>
+
+
+                            <div class="row">
+
+                                <div class="column">
+                                    <div class="project-instance" onclick="onProjInstanceClick(3)">
+
+                                    <div class="project-image-container">
+                                        <img id="bus-proj-pic" src="images/busesrus.png" style="width:100%">
+                                    </div>
+
+                                    BusesAreUs
+                                
+                                    </div>
+                                </div>
+
+
+                                <div class="column">
+
+                                    <div class="project-instance" onclick="onProjInstanceClick(4)">
+
+                                        <div class="project-image-container">
+                                        <img id="mind-palace-proj-pic" src="images/mindpalaceproj.png" 
+                                        style="width:100%">
+                                    </div>
+
+                                    Mind Palace
+
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="column">
+
+                                    <div class="project-instance" onclick="onProjInstanceClick(5)">
+
+                                        <div class="project-image-container">
+                                            <img id="ar-proj-pic" src="images/arproj.jpeg" style="width:100%">
+                                        </div>
+
+                                        AR App
+
+                                    
+
+                                    </div>
+
+                                </div>
+
+
+                                
+
+                            </div>
+
+
+                            <div class="row">
+
+                                <div class="column">
+                                    <div class="project-instance" onclick="onProjInstanceClick(6)">
+
+                                        <div class="project-image-container">
+                                            <img id="image-manipulation-proj-pic" src="images/imagemanip.jpg" 
+                                            style="width:100%">
+                                        </div>
+
+                                        Image Manipulator
+
+                                    
+
+                                    </div>
+                                </div>
+
+
+                                <div class="column">
+
+                                    <div class="project-instance" onclick="onProjInstanceClick(7)">
+
+                                        <div class="project-image-container">
+                                            <img id="munch-madness-proj-pic" src="images/munchmadness.png" 
+                                            style="width:100%">
+                                        </div>
+
+                                        Munch Madness
+
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="column">
+
+                                    <div class="project-instance" onclick="onProjInstanceClick(8)">
+
+                                    <div class="project-image-container">
+                                        <img id="nba-proj-pic" src="images/nba-db.png" style="width:100%">
+                                    </div>
+
+                                    NBA Database
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+            <!-- INTERESTS -->
+
+                <div id="interests-container" class="section">
+                    <div id="interests">
+
+                        <div id="interests-nav"></div>
+
+
+                        <div id="interests-inspire" class="interest-instance">
+                            <div id="interest-inspire">
+                                <h1>What Inspires Me</h1>
+
+                                <h4>
+                                    These videos are long, but I highly recommend checking them out if you have 
+                                    time.
+                                </h4>
+
+                            </div>
+
+                            <div class="iframe-container">
+                                <iframe src="https://www.youtube.com/embed/XFnGhrC_3Gs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <div class="iframe-container">
+                                <iframe src="https://www.youtube.com/embed/6iM6M_7wBMc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+
+                        
+
+                        
+
+
+
+                        <div id="interests-rowing" class="interest-instance">
+                            <div id="interest-rowing">
+                                <h1>Rowing</h1>
+
+                                <h4>
+                                    How I learned to deal with victory and defeat
+                                </h4>
+
+
+                            </div>
+
+
+                            <h7>
+                                (Click to view photos)
+                            </h7>
+                            
+
+                            <p>
+
+                                <img id="int-rowing-pic-1" class="int-rowing-pic" src="images/row-pic1.jpg">
+
+                                My rowing story began in <a class="rowingShowPic" onclick="showPic(1)">grade 
+                                eight</a>.  I had just started high school at Vancouver College and joined the team 
+                                mostly to make friends.  That decision turned out to be one of the best decisions I 
+                                have ever made, and it changed my life forever.  <br><br>
+
+                                Through rowing, I learned to work hard.  I also learned how to be a good teammate.  
+                                Rowing is unique in its team structure, since each person in the boat must perform 
+                                the same precise motions in unison, and a mistake from one rower can affect the 
+                                entire crew.  There is no help defense or deep safety to cover up mistakes.  
+                                Everyone is responsible for themselves, and there needs to be a tremendous amount 
+                                of trust between teammates.  <br><br>
+
+                                <img id="int-rowing-pic-2" class="int-rowing-pic" src="images/row-pic2.jpg">
+
+                                In grade ten, I went to nationals in Ontario for the first time and won the 
+                                heavyweight 4+ event.  As sweet as 
+                                <a class="rowingShowPic" onclick="showPic(2)">becoming a national champion</a> was, 
+                                I learned more from my disappointing fourth place finish in my other race.  I 
+                                started to work even harder, with extra workout sessions, eating better, and taking 
+                                better care of my body through stretching and physio.  It paid off the following 
+                                year, when I won another national championship, this time on the senior level. 
+                                 <br><br>
+
+                                <img id="int-rowing-pic-3" class="int-rowing-pic" src="images/row-pic3.jpg">
+
+                                After <a class="rowingShowPic" onclick="showPic(3)">losing a close race</a> at 
+                                nationals the next year, I came to UBC.  It was a totally different league.  I had 
+                                been in the varsity boat for my entire high school experience, and I was relegated 
+                                to the JV boat for the first time in my life.  It was a wakeup call.  I took my 
+                                training to an even higher level and was able to make the varsity lightweight 4+ in 
+                                my second year, culminating in a second place finish at nationals.  The drive to 
+                                win the gold medal motivated me through the rest of my rowing career.  <br><br>
+
+                                <video id="windermere-vid" class="int-rowing-vid" >
+                                    <source src="images/windermere-vid.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+
+                                The summer after my fourth year, I got the opportunity to compete in the 
+                                <a class="rowingShowPic" onclick="showVid()">Windermere Cup</a> in Seattle and 
+                                the <a class="rowingShowPic" onclick="showPic(6)">Vanke 
+                                Cup</a> <img id="int-rowing-pic-6" class="int-rowing-pic" src="images/row-pic6.jpg">
+                                in China.  Both races were watched by thousands of people and featured some of the 
+                                best rowing schools in the world - Harvard, Oxford, Cambridge, Sidney, Brookes, the 
+                                University of Washington, and others.  My crew placed second at Windermere and 
+                                first in China. <br><br>
+
+                                I took on more of a leadership role in my fifth year.  As the oldest and most 
+                                experienced rower in the lightweight 4+, I was voted captain.  I had an 
+                                inexperienced crew and knew that we needed to put in extra effort to beat Queens, 
+                                who had two members of the national team in their boat.  We took extra training 
+                                camps in Bellingham on top of our already rigorous schedule.  It was because of our 
+                                teamwork and trust in one another that we were able to have the race of our lives.  
+                                We were able to overcome Queens to win the <a class="rowingShowPic" 
+                                onclick="showPic(7)">banner</a>. <img id="int-rowing-pic-7" 
+                                class="int-rowing-pic" src="images/row-pic7.png">  <br><br>
+
+                                I've learned a lot over the past ten years.  Leaving the sport will be a difficult 
+                                transition, but I'm looking forward to what comes next for me.  The friends that I 
+                                have made and the life skills that I have gained will be with me forever, and I 
+                                will never forget the how it felt to cross the finish line with my brothers for the 
+                                last time.
+                            </p>
+                        </div>
+
+                        <div id="interests-coding" class="interest-instance">
+                            <div id="interest-coding">
+                                <h1>Coding</h1>
+
+                                <h4>
+                                    How business school ignited my passion for technology
+                                </h4>
+
+                            </div>
+                            
+
+                            <p>
+                                Going into university, I wasn't sure what I wanted to do yet.  I chose to study 
+                                commerce, since I felt that having business knowledge would be useful no matter 
+                                where I chose to go in my career.  I was mostly uninspired by marketing, 
+                                accounting, and many other common majors. <br><br>
+
+                                In my second year, though, I took a class called Management Information Systems.  
+                                It changed my life.  I learned very basic coding, and I was hooked.  After that, I 
+                                knew that I wanted to go into a field where I could combine my business knowledge 
+                                with technology.  I chose to major in Business and Computer Science, a combined 
+                                major at UBC. <br><br>
+
+                                I was inspired by learning the kinds of solutions that technology provides - 
+                                creating systems to complete tasks that no human could achieve alone is where I 
+                                have found my passion.
+                            </p>
+                        </div>
+
+
+                        <div id="interests-cavs" class="interest-instance">
+                            <div id="interest-cavs">
+                                <h1>Basketball</h1>
+
+                                <h4>
+                                    My journey as a fan
+                                </h4>
+
+                            </div>
+
+
+                            <p>
+                                I got back into basketball in 2011.  Though I didn't play it because of my rowing 
+                                commitments, I became an NBA fan.  When it came time for me to choose a team, I 
+                                chose the Cleveland Cavaliers. <br><br>
+
+                                I enjoy watching basketball because each team has a unique style.  The diversity of 
+                                the Spurs' offense looks completely different from the analytic-driven 3s and 
+                                layups philosophy of the Warriors and Rockets.  The style that appealed the most to 
+                                me was the Cavaliers' clear division of roles among its players - on every 
+                                possession, it was one player's job to probe the defense, while others would cut, 
+                                screen, provide spacing from the 3 point line, or prepare to get an offensive 
+                                rebound.  Dividing these responsibilities made each player's job simpler, and the 
+                                team benefitted overall.  <br><br>
+
+                                The struggles and 20-win seasons in my early days as a fan only made the 2016 
+                                championship that much sweeter.  The Cavs had been down three games to one, and no 
+                                one expected them to have a chance.  No team had ever come back from a 3-1 defecit 
+                                in the NBA Finals.  They fought every game and were able to force a seventh game.  
+                                After trailing in the second half, they tied the game at 89.  No one could score 
+                                for what felt like an eternity until Kyrie Irving hit an unbelievable shot, 
+                                completing the comeback.  Never giving up and believing in myself even when no one 
+                                else does are things that I try to replicate in my own life.
+                            </p>
+
+                            <div class="iframe-container">
+                                <iframe src="https://www.youtube.com/embed/ajHUjXFS6BA" frameborder="0" 
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div id="interests-more" class="interest-instance2">
+                            <div id="interest-more">
+                                <h1>More About Me</h1>
+
+                                <h4>
+                                    These are some more of the things that I care about
+                                </h4>
+
+                            </div>
+
+
+                            <div id="pods" class="interest-more-instance">
+                                <h3>My favourite podcasts</h3>
+
+                                <iframe id="testPod" 
+                                sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups" 
+                                scrolling=no width="100%" height="185" frameborder="0" 
+                                src="https://embed.radiopublic.com/e?if=RevisionistHistory&ge=s1!98c32"></iframe>
+
+                                <iframe sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups" 
+                                scrolling=no width="100%" height="185" frameborder="0" 
+                                src="https://embed.radiopublic.com/e?if=the-bill-simmons-podcast-k6paJ8&ge=s1!576fb"></iframe>
+
+                                <iframe sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups" 
+                                scrolling=no width="100%" height="185" frameborder="0" 
+                                src="https://embed.radiopublic.com/e?if=TheDaily:dHJlbmRpbmctaW4tc2VhcmNo"></iframe>
+
+                                <iframe sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups" 
+                                scrolling=no width="100%" height="185" frameborder="0" 
+                                src="https://embed.radiopublic.com/e?if=against-the-rules-with-michael-le-GEvpVZ&ge=s1!1c96456d6d361da847ea64106e3e9c6dc3e0719b"></iframe>
+
+                            </div>
+
+                            <br><br><br><br>
+
+                            <div id="yt" class="interest-more-instance">
+                                <h3>My favourite YouTube channels</h3>
+
+                                <a href="https://www.youtube.com/user/onemeeeliondollars" target="_blank">
+                                    <img id="yt1" class="yt-channel-pic" src="images/markrober.jpg">
+                                </a>
+
+                                <a href="https://www.youtube.com/user/CGPGrey" target="_blank">
+                                    <img id="yt2" class="yt-channel-pic" src="images/cgpgrey.jpg">
+                                </a>
+
+                                <a href="https://www.youtube.com/user/jonbois" target="_blank">
+                                    <img id="yt3" class="yt-channel-pic" src="images/jonbois.jpg">
+                                </a>
+
+                                <a href="https://www.youtube.com/user/Top10Memes" target="_blank">
+                                    <img id="yt4" class="yt-channel-pic" src="images/lemmino.jpg">
+                                </a>
+
+                                <a href="https://www.youtube.com/channel/UCQALLeQPoZdZC4JNUboVEUg" target="_blank">
+                                    <img id="yt5" class="yt-channel-pic" src="images/jabrils.jpg">
+                                </a>
+
+                                <a href="https://www.youtube.com/user/videogamedunkey" target="_blank">
+                                    <img id="yt6" class="yt-channel-pic" src="images/videogamedunkey.jpg">
+                                </a>
+
+                                <a href="https://www.youtube.com/channel/UCHsRtomD4twRf5WVHHk-cMw" target="_blank">
+                                    <img id="yt7" class="yt-channel-pic" src="images/tierzoo.jpg">
+                                </a>
+                            
+                            
+                            </div>
+
+                            <br><br><br><br>
+
+                            <div id="books" class="interest-more-instance">
+                                <h3>My favourite books</h3>
+
+                            <a href="https://www.thelittleprince.com/" target="_blank">
+                                <img id="book1" class="book-pic" src="images/thelittleprince.jpg">
+                            </a>
+
+                            <a href="https://www.npr.org/templates/story/story.php?storyId=97117414" 
+                            target="_blank">
+                                <img id="book2" class="book-pic" src="images/outliers.jpg">
+                            </a>
+
+                            <a href="https://www.rtsd.org/cms/lib/PA01000218/Centricity/Domain/526/budnotbuddythe%20book.pdf" target="_blank">
+                                <img id="book3" class="book-pic" src="images/budnotbuddy.jpg">
+                            </a>
+
+                            <a href="https://www.theguardian.com/books/2018/oct/19/brief-answers-to-the-big-questions-stephen-hawking-review" target="_blank">
+                                <img id="book4" class="book-pic" src="images/briefanswerstothebigquestions.jpg">
+                            </a>
+
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <!-- CONTACT -->
+
+                <div id="contact-container" class="section">
+                    <div id="contact">
+
+                        <h1>If you want to get in contact, feel free to shoot me an email!</h1>
+
+                        <p>Make sure to provide your email address and your name so I can get back to you</p>
+
+                        <form class="ajaxForm" action="https://formcarry.com/s/86KtwnB6JfD" method="POST" 
+                        accept-charset="UTF-8">
+
+                            <a class="formPrompt">Your email:</a>
+                            <input type="email" name="email" required>
+
+                            <a class="formPrompt">Your name:</a>
+                            <input type="text" name="name" required>
+
+                            <a class="formPrompt">Message:</a>
+                            <textarea type="text" name="msg" class="txt-area-autosize" required></textarea>
+
+                            <input type="hidden" name="_gotcha"><!-- to prevent spam -->
+
+                            <input type="submit" name="send" value="Send">
+
+                        </form> 
+
+
+                    </div>
+
+                </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+    </body>
+
+</html>
