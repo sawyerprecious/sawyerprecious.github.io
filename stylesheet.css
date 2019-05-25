@@ -339,6 +339,7 @@ div#profile-pic-container {
 
 	background-image: url('images/rowing-headshot.jpeg');
 	background-position: center;
+	background-repeat: no-repeat;
 
 
 	margin-bottom: 20px;
