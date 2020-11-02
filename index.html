@@ -16,13 +16,27 @@
         <title>
             Sawyer Precious - Portfolio
         </title>
-
-
-
-
     </head>
 
+    <!-- Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js"></script>
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyB0gz0mjrNE4fC1hef2JmoZsP8yyW0OBG4",
+            authDomain: "sawyer-eda4c.firebaseapp.com",
+            databaseURL: "https://sawyer-eda4c.firebaseio.com",
+            projectId: "sawyer-eda4c",
+            storageBucket: "sawyer-eda4c.appspot.com",
+            messagingSenderId: "1087922224122",
+            appId: "1:1087922224122:web:800f8068ec92be03fc4243",
+            measurementId: "G-Z7BRHPX16X"
+        };
 
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
 
     <!-- Loader -->
 
@@ -1227,22 +1241,8 @@
                             <input type="submit" name="send" value="Send">
 
                         </form> 
-
-
                     </div>
-
                 </div>
-
-
         </div>
-
-
-
-
-
-
-
-
     </body>
-
 </html>
