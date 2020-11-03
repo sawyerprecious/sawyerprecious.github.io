@@ -307,7 +307,7 @@ function showVid() {
 
 function clickedNav(item) {
 	if (item == 'About') {
-// 		getItemFromDB(item);
+		getItemFromDB(item);
 		onAboutClick();
 		return;
 	}
@@ -335,5 +335,5 @@ function clickedNav(item) {
 // Database
 
 function getItemFromDB(value) {
-	alert(firebase.database().once(value));
+	alert(firebase.database().ref().once(value));
 }
