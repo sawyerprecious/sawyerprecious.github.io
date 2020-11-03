@@ -333,7 +333,7 @@ function clickedNav(item) {
 }
 
 function version() {
-	document.getElementByID("version").value = "1.1.2"
+	document.getElementById("loader-text").innerText = "v1.1.2";
 }
 
 // Database
