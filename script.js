@@ -332,6 +332,10 @@ function clickedNav(item) {
 	}
 }
 
+function version() {
+	document.getElementByID("version").value = "1.1.2"
+}
+
 // Database
 
 function getItemFromDB(value) {
