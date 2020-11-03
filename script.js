@@ -307,8 +307,8 @@ function showVid() {
 
 function clickedNav(item) {
 	if (item == 'About') {
-		getItemFromDB(item);
 		onAboutClick();
+		getItemFromDB(item);
 		return;
 	}
 	if (item == 'Experience-Section') {
