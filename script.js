@@ -305,10 +305,35 @@ function showVid() {
   	}
 }
 
+function clickedNav(item) {
+	if item == 'About' {
+		getItemFromDB(item);
+		onAboutClick();
+		return;
+	}
+	if item == 'Experience-Section' {
+		getItemFromDB(item);
+		onExperienceClick();
+		return;
+	}
+	if item == 'Interests-Section' {
+		getItemFromDB(item);
+		onInterestsClick();
+		return;
+	}
+	if item == 'Projects-Section' {
+		getItemFromDB(item);
+		onProjectsClick();
+		return;
+	}
+	if item == 'Contact' {
+		onContactClick();
+		return;
+	}
+}
 
+// Database
 
-
-
-
-
-
+function getItemFromDB(value) {
+	alert(firebase.database().once(value));
+}
