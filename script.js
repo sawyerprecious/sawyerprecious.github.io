@@ -335,5 +335,7 @@ function clickedNav(item) {
 // Database
 
 function getItemFromDB(value) {
-	alert(firebase.database().ref().once(value));
+	firebase.database().ref().once(value).then(function(snapshot) {
+		alert(snapshot.val());
+	})
 }
