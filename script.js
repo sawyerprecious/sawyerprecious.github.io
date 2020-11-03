@@ -306,27 +306,27 @@ function showVid() {
 }
 
 function clickedNav(item) {
-	if item == 'About' {
+	if (item == 'About') {
 		getItemFromDB(item);
 		onAboutClick();
 		return;
 	}
-	if item == 'Experience-Section' {
+	if (item == 'Experience-Section') {
 		getItemFromDB(item);
 		onExperienceClick();
 		return;
 	}
-	if item == 'Interests-Section' {
+	if (item == 'Interests-Section') {
 		getItemFromDB(item);
 		onInterestsClick();
 		return;
 	}
-	if item == 'Projects-Section' {
+	if (item == 'Projects-Section') {
 		getItemFromDB(item);
 		onProjectsClick();
 		return;
 	}
-	if item == 'Contact' {
+	if (item == 'Contact') {
 		onContactClick();
 		return;
 	}
