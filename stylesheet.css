@@ -286,6 +286,11 @@ div#nav-links {
 	width: 100%;
 }
 
+div#nav-container a {
+	color: white;
+    	text-decoration: none;
+}
+
 .ptr {
 	cursor: pointer;
 }
