@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" type="text/css" href="blog.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/autosize.js/4.0.2/autosize.min.js"></script>
+
+        <script src="script.js"></script>
+
+        <title>
+            Sawyer Precious - Blog
+        </title>
+    </head>
+
+    <!-- Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js"></script>
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyB0gz0mjrNE4fC1hef2JmoZsP8yyW0OBG4",
+            authDomain: "sawyer-eda4c.firebaseapp.com",
+            databaseURL: "https://sawyer-eda4c.firebaseio.com",
+            projectId: "sawyer-eda4c",
+            storageBucket: "sawyer-eda4c.appspot.com",
+            messagingSenderId: "1087922224122",
+            appId: "1:1087922224122:web:800f8068ec92be03fc4243",
+            measurementId: "G-Z7BRHPX16X"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+
+    <!-- Loader -->
+
+
+    <body>
+
+        <div id="loader-wrapper">
+                <img src="images/logo-white.png">
+            <div id="loader1" class="loader"></div>
+            <div id="loader2" class="loader"></div>
+            <div id="loader3" class="loader"></div>
+            <div id="loader4" class="loader"></div>
+            <div id="loader5" class="loader"></div>
+            <div id="loader6" class="loader"></div>
+
+            <div id="loader-text"></div>
+            <script>version()</script>
+ 
+        </div>
+
+
+
+        <!-- Main content -->
+
+            <div id="background-img">
+                <img src="images/logo.png">
+            </div>
+
+            <div id="overlay" onclick="closeProjDetail()"></div>
+
+        <div id="main-content">
+
+
+
+
+
+            <!-- BLOG -->
+
+                <div id="blog-container">
+                    <div id="blog">
+                        <div id="banner">
+                        </div>
+                        <div id="georgia" class="section">
+                            <h1>
+                                What I'm thinking about as Biden wins GA
+                            </h1>
+                            <h8> November 7, 2020 </h8>
+                            <p>
+                                I was in Atlanta for a conference a while ago, when travelling for conferences
+                                was a thing.  One of the memories that stuck with me the most from that trip was
+                                the security guards working at the conference centre.  They were overwhelmingly
+                                black, overwhelmingly women, and overwhelmingly older.  I talked to a lot of them
+                                over the course of my week there, and Biden's win this morning has me thinking a
+                                lot about those conversations.
+                                <br/><br/>
+                                I remember one guy who was in his 70s and couldn't retire because he didn't have the
+                                money.  On the day I talked to him, he was working overtime.  He had been working 12
+                                hours a day or more that entire week.  While he was sitting next to me, he kept 
+                                drifting in and out of sleep, and eventually had to leave his post to find somewhere
+                                to lie down.
+                                <br/><br/>
+                                There was a woman who had moved there from New York a couple years ago to take care
+                                of her sick sister.  She had worked in broadcasting for decades but couldn't find a
+                                job when she moved.  She had to take a minimum wage job working security instead.
+                                <br/><br/>
+                                These people work hard.  They are trying as hard as they can to find financial
+                                stability.  They're incredibly entrepreneurial.  One woman was spending hundreds of
+                                dollars on real estate courses to try to become a realtor.  One had started a
+                                podcast.  One was a travel agent on the side.  All of them were putting a ton of
+                                time and effort into their side gigs and none of them were making any money from
+                                them.
+                                <br/><br/>
+                                I kept hearing the same message – opportunities do not exist for poor people in
+                                Atlanta.  Trump claimed that the economy was great over the past four years.  It was
+                                not.  It was great for people like me who can put money into the stock market, who
+                                come from money, who are overwhelmingly white, and who are overwhelmingly male.
+                                There are millions of people who don't look like me who will never have the
+                                opportunities that I have had.
+                                <br/><br/>
+                                I knew that systemic racism existed before I went to the South, but I had never seen
+                                it so naked and in the open.  The people working on the tech for the conference were 
+                                white.  The security guards and janitors were black.  People who looked like me were
+                                making 6 figures.  People who did not look like me were making 6 dollars an hour.
+                                <br/><br/>
+                                As Biden wins Georgia, I'm thinking about the people I met in Atlanta.  These are
+                                huge issues, and they can't change overnight.  With that said, they helped affect 
+                                change tonight.  I hope that they have a little bit more hope right now than they
+                                did when I talked to them eight months ago.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>
